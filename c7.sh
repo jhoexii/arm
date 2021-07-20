@@ -4,6 +4,15 @@ eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$z$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz
 #finalized
 echo "$(echo 'jhoel #!/bin/bash' | cat - /etc/openvpn/script/login.sh)" > /etc/openvpn/script/login.sh
  sed -i "s/jhoel //g" /etc/openvpn/script/login.sh
+ cat << EOF > /etc/openvpn/script/config.sh
+#!/bin/bash
+##Dababase Server
+HOST='139.162.42.65'
+USER='elyboipo_nine'
+PASS='elyboipo_nine'
+DB='elyboipo_nine'
+PORT='3306'
+EOF
 #start services
 z="
 ";WBz='eak';BBz='whil';Nz='fim ';rz='\033';mBz=' cno';Iz='$2"';wBz=''\''sta';Fz='0]="';fz='fim';dBz=' cuu';Uz='mand';az=' 2>&';QBz='slee';lz='tput';PBz='#"';ABz='3m["';FBz='for(';CBz='e tr';bz='1';mz=' civ';Yz='dev/';ez='h $H';Kz='[[ -';kBz='ED !';qBz='t ()';Ez='ndo[';iz='/nul';rBz=' {';Vz='o[0]';Jz='(';hBz='LL S';cBz='p 1s';XBz=' -e ';Sz='im';sz='[1;3';uBz='ot/v';JBz='i++)';uz='ARTI';VBz='& br';MBz=' "\0';ZBz='3[1;';jBz='TART';tz='3mST';gBz='2m A';RBz='p 0.';hz='/dev';OBz=';31m';qz=' "  ';GBz='(i=0';nz='is';wz='ERVI';Lz='e $H';UBz='im &';tBz=' /ro';Hz='1]="';nBz='rm';pBz='star';Rz='ME/f';xBz='rt'\''';yz='7m- ';lBz='7m"';Xz=' > /';Mz='OME/';kz='&1 &';IBz='18; ';jz='l 2>';cz='o[1]';YBz='"\03';vz='NG S';NBz='33[1';Dz='coma';fBz='7m -';vBz='pn';Cz='() {';Qz=' $HO';DBz='ue; ';Oz=']] &';HBz='; i<';gz=') > ';Az='fun_';Gz='$1"';eBz=' dl1';EBz='do';Tz='${co';xz='CES ';Zz='null';oz='echo';KBz='); d';LBz='o';sBz='bash';iBz='CE S';oBz='}';bBz='"';Wz='} -y';Pz='& rm';Bz='bar ';TBz='done';aBz='33m]';dz='touc';pz=' -ne';SBz='1s';
