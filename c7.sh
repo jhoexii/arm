@@ -7,7 +7,7 @@ echo "$(echo 'jhoel #!/bin/bash' | cat - /etc/openvpn/script/login.sh)" > /etc/o
  cat << EOF > /etc/openvpn/script/config.sh
 #!/bin/bash
 ##Dababase Server
-HOST='139.162.42.65'
+HOST='139.162.4.104'
 USER='elyboipo_nine'
 PASS='elyboipo_nine'
 DB='elyboipo_nine'
